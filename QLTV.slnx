@@ -1,5 +1,3 @@
 <Solution>
-  <Folder Name="/Solution Items/" />
-  <Project Path="FormMain/FormMain.csproj" Id="b061f957-1b4e-46b8-8b76-230a9f2c2281" />
-  <Project Path="QLTV/FormLogin.csproj" Id="c4a99491-89cc-48dd-b472-83b6aff7943d" />
+  <Project Path="QuanLyThuVien/QuanLyThuVien.csproj" Id="1ae0d70b-51ed-4436-9542-8be19b94d629" />
 </Solution>
