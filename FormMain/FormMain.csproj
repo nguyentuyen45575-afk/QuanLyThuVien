@@ -49,37 +49,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BookManagement.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="BookManagement.Designer.cs">
-      <DependentUpon>BookManagement.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CustomTabControl.cs">
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserManagement.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserManagement.Designer.cs">
-      <DependentUpon>UserManagement.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="BookManagement.resx">
-      <DependentUpon>BookManagement.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserManagement.resx">
-      <DependentUpon>UserManagement.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -103,9 +82,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\The_Library_-_Floor_of_Art.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
